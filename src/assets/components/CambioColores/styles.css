@@ -1,0 +1,13 @@
+.claseA{
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+.claseB{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+.claseC{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blue;
+    text-transform: uppercase;
+}

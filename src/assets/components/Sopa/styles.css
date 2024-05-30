@@ -1,0 +1,55 @@
+.sopa{
+    background-color: burlywood;
+    width: 400px;
+    height: 400px;
+
+    border-radius: 100%;
+    border: #111 solid 4px;
+}
+.item{
+    position: absolute;
+    z-index: 1;
+
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.mosca{
+    position: absolute;
+    z-index: 1;
+
+    background-color: #111;
+    width: 40px;
+    height: 80px;
+    border-radius: 100px;
+}
+
+
+
+
+.mt-100{
+    margin-top: 100px;
+}
+.ms-100{
+    margin-left: 100px;
+}
+.mt-200{
+    margin-top: 200px;
+}
+.ms-200{
+    margin-left: 200px;
+}
+.mt-300{
+    margin-top: 300px;
+}
+.ms-300{
+    margin-left: 300px;
+}
+
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}

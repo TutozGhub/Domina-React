@@ -1,0 +1,75 @@
+.reloj{
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+}
+.caratula{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 96%;
+    height: 96%;
+
+    border-radius: 100%;
+}
+.caratula-mini{
+    --size: 100%;
+    position: absolute;
+    width: var(--size);
+    height: var(--size);
+}
+.caratula-h{
+    --size: 85%;
+}
+.caratula-m{
+    --size: 90%;
+}
+.caratula-s{
+    --size: 95%;
+}
+.manecilla{
+    --color: black;
+    position: absolute;
+    transform-origin: bottom;
+    
+    background-color: var(--color);
+    height: 50%;
+    width: 3px;
+    top: 0%;
+    left: 50%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.horas{
+    --color: black;
+    width: 10px;
+    z-index: 1;
+}
+.minutos{
+    --color: #555;
+    width: 5px;
+    z-index: 2;
+}
+.segundos{
+    --color: red;
+    width: 3px;
+    z-index: 3;
+}
+.centro{
+    position: absolute;
+    border-radius: 100%;
+    z-index: 4;
+
+    background-color: black;
+    width: 20px;
+    height: 20px;
+
+}
