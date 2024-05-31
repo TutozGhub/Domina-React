@@ -1,4 +1,4 @@
-[
+export const PATHS = [
     {
     "name": "Conteo Final",
     "path": "/ConteoFinal"
@@ -26,5 +26,17 @@
     {
     "name": "Apunta la flecha",
     "path": "/Flecha"
+    },
+    {
+    "name": "Buscando entre datos externos",
+    "path": "/BuscandoDatos"
+    },
+    {
+    "name": "Ordenando una lista de paises por nombre",
+    "path": "/Ordenando"
+    },
+    {
+    "name": "Ordenando una lista de paises por ranking",
+    "path": "/OrdenandoRanking"
     }
 ]

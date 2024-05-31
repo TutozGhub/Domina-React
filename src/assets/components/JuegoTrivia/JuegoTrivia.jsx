@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import {PREGUNTAS} from './Preguntas'
 
 export default function JuegoTrivia() {
 
@@ -11,15 +12,8 @@ export default function JuegoTrivia() {
     const [questionIndex, setQuestionIndex] = useState(0)
 
     useEffect(()=>{
-        fetch('src\\assets\\jsons\\JuegoTrivia\\preguntas.json')
-        .then((res) => res.json())
-        .then((data)=>{
-            setQuestions(data);
-            setQuestionLen(data.length);
-        })
-        .catch((error)=>{
-            console.log("Error al cargar los paths", error);
-        })
+        setQuestions(PREGUNTAS);
+        setQuestionLen(PREGUNTAS.length);
     }, [])
     
     useEffect(()=>{

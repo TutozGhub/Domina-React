@@ -1,0 +1,56 @@
+[
+    {
+        "nombre": "Argentina",
+        "atracciones": ["Obelisco", "9 de Julio", "Las cataratas", "Budge"],
+        "idiomas": ["Argentino"],
+        "comidas": ["Asado", "Locro", "Polenta"],
+        "ranking_comida": "1",
+        "ranking_hoteles": "6",
+        "ranking_precios": "3"
+    },
+    {
+        "nombre": "Italia",
+        "atracciones": ["Coliseo", "Torre inclinada de Pisa"],
+        "idiomas": ["Italiano"],
+        "comidas": ["Pizza", "Pasta", "Tiramisú"],
+        "ranking_comida": "4",
+        "ranking_hoteles": "1",
+        "ranking_precios": "5"
+    },
+    {
+        "nombre": "Francia",
+        "atracciones": ["Torre Eiffel", "Museo del Louvre", "Catedral de Notre-Dame"],
+        "idiomas": ["Francés"],
+        "comidas": ["Croissant", "Quiche Lorraine", "Ratatoille"],
+        "ranking_comida": "2",
+        "ranking_hoteles": "2",
+        "ranking_precios": "2"
+    },
+    {
+        "nombre": "Japón",
+        "atracciones": ["Monte Fuji", "Templo Senso-ji", "Santuario Fushimi Inari"],
+        "idiomas": ["Japonés"],
+        "comidas": ["Sushi", "Ramen", "Tempura"],
+        "ranking_comida": "3",
+        "ranking_hoteles": "3",
+        "ranking_precios": "1"
+    },
+    {
+        "nombre": "Egipto",
+        "atracciones": ["Pirámides de Giza", "Templo de Luxor", "Valle de los Reyes"],
+        "idiomas": ["Árabe"],
+        "comidas": ["Koshari", "Ful Medames", "Molokhia"],
+        "ranking_comida": "6",
+        "ranking_hoteles": "5",
+        "ranking_precios": "6"
+    },
+    {
+        "nombre": "China",
+        "atracciones": ["Gran Muralla", "Ciudad Prohibida", "Templo del Cielo"],
+        "idiomas": ["Chino"],
+        "comidas": ["Dim Sum", "Pato Pekinés", "Hot Pot"],
+        "ranking_comida": "5",
+        "ranking_hoteles": "4",
+        "ranking_precios": "4"
+    }
+]

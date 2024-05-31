@@ -1,19 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import LinkProyecto from './LinkProyecto'
+import {PATHS} from './Paths'
 
 export default function Proyectos() {
 
     const [paths, setPaths] = useState([]);
 
     useEffect(()=>{
-        fetch('src\\assets\\jsons\\paths.json')
-        .then((res) => res.json())
-        .then((data)=>{
-            setPaths(data);
-        })
-        .catch((error)=>{
-            console.log("Error al cargar los paths", error);
-        })
+        setPaths(PATHS);
     }, [])
 
     return(
