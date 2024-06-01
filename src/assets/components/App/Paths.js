@@ -27,6 +27,7 @@ export const PATHS = [
     "name": "Apunta la flecha",
     "path": "/Flecha"
     },
+
     {
     "name": "Buscando entre datos externos",
     "path": "/BuscandoDatos"
@@ -42,5 +43,13 @@ export const PATHS = [
     {
     "name": "Listado de perfiles de usuario",
     "path": "/ListaUsuarios"
+    },
+    {
+    "name": "Leer más / Leer menos",
+    "path": "/LeerMas"
+    },
+    {
+    "name": "Contador de palabras",
+    "path": "/ContadorPalabras"
     }
 ]

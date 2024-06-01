@@ -6,7 +6,7 @@ export default function Pais({ data }) {
   };
   return (
     <div className="col">
-        <div className="card mt-5" style={card}>
+        <div className="card mt-5 mx-auto h-100" style={card}>
           <div className="card-header">
             <h2>{data?.nombre}</h2>
           </div>
@@ -25,9 +25,6 @@ export default function Pais({ data }) {
               <strong>Comidas populares: </strong>
               {data?.comidas.join(", ")}
             </li>
-            <p>{data?.ranking_comida}</p>
-            <p>{data?.ranking_hoteles}</p>
-            <p>{data?.ranking_precios}</p>
           </ul>
         </div>
       </div>

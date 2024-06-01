@@ -5,16 +5,7 @@
         "idiomas": ["Argentino"],
         "comidas": ["Asado", "Locro", "Polenta"],
         "ranking_comida": "1",
-        "ranking_hoteles": "6",
-        "ranking_precios": "3"
-    },
-    {
-        "nombre": "Italia",
-        "atracciones": ["Coliseo", "Torre inclinada de Pisa"],
-        "idiomas": ["Italiano"],
-        "comidas": ["Pizza", "Pasta", "Tiramisú"],
-        "ranking_comida": "4",
-        "ranking_hoteles": "1",
+        "ranking_hoteles": "4",
         "ranking_precios": "5"
     },
     {
@@ -28,29 +19,56 @@
     },
     {
         "nombre": "Japón",
-        "atracciones": ["Monte Fuji", "Templo Senso-ji", "Santuario Fushimi Inari"],
+        "atracciones": ["Monte Fuji", "Templo Sensoji", "Santuario Fushimi Inari"],
         "idiomas": ["Japonés"],
         "comidas": ["Sushi", "Ramen", "Tempura"],
         "ranking_comida": "3",
-        "ranking_hoteles": "3",
-        "ranking_precios": "1"
+        "ranking_hoteles": "1",
+        "ranking_precios": "7"
     },
     {
         "nombre": "Egipto",
-        "atracciones": ["Pirámides de Giza", "Templo de Luxor", "Valle de los Reyes"],
+        "atracciones": ["Pirámides de Giza", "Templo de Karnak", "Valle de los Reyes"],
         "idiomas": ["Árabe"],
-        "comidas": ["Koshari", "Ful Medames", "Molokhia"],
-        "ranking_comida": "6",
-        "ranking_hoteles": "5",
-        "ranking_precios": "6"
+        "comidas": ["Koshari", "Ful medames", "Molokhia"],
+        "ranking_comida": "4",
+        "ranking_hoteles": "6",
+        "ranking_precios": "1"
     },
     {
         "nombre": "China",
-        "atracciones": ["Gran Muralla", "Ciudad Prohibida", "Templo del Cielo"],
+        "atracciones": ["Gran Muralla China", "Ciudad Prohibida", "Guerreros de Terracota"],
         "idiomas": ["Chino"],
-        "comidas": ["Dim Sum", "Pato Pekinés", "Hot Pot"],
+        "comidas": ["Pato Pekín", "Dim Sum", "Mapo Tofu"],
         "ranking_comida": "5",
-        "ranking_hoteles": "4",
+        "ranking_hoteles": "7",
+        "ranking_precios": "3"
+    },
+    {
+        "nombre": "Nueva Zelanda",
+        "atracciones": ["Milford Sound", "Hobbiton", "Monte Cook"],
+        "idiomas": ["Inglés", "Maorí"],
+        "comidas": ["Hangi", "Pavlova", "Fish and Chips"],
+        "ranking_comida": "6",
+        "ranking_hoteles": "3",
+        "ranking_precios": "6"
+    },
+    {
+        "nombre": "India",
+        "atracciones": ["Taj Mahal", "Templo Dorado", "Palacio de Mysore"],
+        "idiomas": ["Hindi", "Inglés"],
+        "comidas": ["Biryani", "Masala Dosa", "Butter Chicken"],
+        "ranking_comida": "7",
+        "ranking_hoteles": "5",
         "ranking_precios": "4"
+    },
+    {
+        "nombre": "Alemania",
+        "atracciones": ["Puerta de Brandeburgo", "Castillo de Neuschwanstein", "Catedral de Colonia"],
+        "idiomas": ["Alemán"],
+        "comidas": ["Bratwurst", "Sauerkraut", "Pretzel"],
+        "ranking_comida": "8",
+        "ranking_hoteles": "8",
+        "ranking_precios": "8"
     }
 ]

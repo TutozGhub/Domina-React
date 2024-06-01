@@ -10,7 +10,6 @@ export default function ListaUsuarios() {
     .then((data) => data.results)
     .then((data) => {
       setProfiles(data);
-      console.log(data);
     })
       .catch((err) => setError(err));
   }, []);
