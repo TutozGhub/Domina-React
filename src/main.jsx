@@ -16,6 +16,7 @@ import Ordenando from './assets/components/Ordenando/Ordenando.jsx';
 import OrdenandoRanking from './assets/components/OrdenandoRanking/OrdenandoRanking.jsx';
 import ListaUsuarios from './assets/components/ListaUsuarios/ListaUsuarios.jsx';
 import LeerMas from './assets/components/LeerMas/LeerMas.jsx';
+import ContadorPalabras from './assets/components/ContadorPalabras/ContadorPalabras.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -35,6 +36,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="OrdenandoRanking" element={<OrdenandoRanking />} />
         <Route path="ListaUsuarios" element={<ListaUsuarios />} />
         <Route path="LeerMas" element={<LeerMas />} />
+        <Route path="ContadorPalabras" element={<ContadorPalabras />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
