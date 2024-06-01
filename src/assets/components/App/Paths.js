@@ -38,5 +38,9 @@ export const PATHS = [
     {
     "name": "Ordenando una lista de paises por ranking",
     "path": "/OrdenandoRanking"
+    },
+    {
+    "name": "Listado de perfiles de usuario",
+    "path": "/ListaUsuarios"
     }
 ]

@@ -14,6 +14,7 @@ import Flecha from "./assets/components/Flecha/Flecha";
 import BuscandoDatos from './assets/components/BuscandoDatos/BuscandoDatos.jsx';
 import Ordenando from './assets/components/Ordenando/Ordenando.jsx';
 import OrdenandoRanking from './assets/components/OrdenandoRanking/OrdenandoRanking.jsx';
+import ListaUsuarios from './assets/components/ListaUsuarios/ListaUsuarios.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -31,6 +32,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="BuscandoDatos" element={<BuscandoDatos />} />
         <Route path="Ordenando" element={<Ordenando />} />
         <Route path="OrdenandoRanking" element={<OrdenandoRanking />} />
+        <Route path="ListaUsuarios" element={<ListaUsuarios />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
