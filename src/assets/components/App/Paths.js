@@ -53,7 +53,15 @@ export const PATHS = [
     "path": "/ContadorPalabras"
     },
     {
-    "name": "Inputs Basicos",
+    "name": "Inputs basicos",
     "path": "/InputsBasicos"
+    },
+    {
+    "name": "Mostrar/ocultar contraseña",
+    "path": "/MostrarPass"
+    },
+    {
+    "name": "Validacion de datos",
+    "path": "/Validacion"
     }
 ]

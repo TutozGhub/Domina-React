@@ -12,3 +12,7 @@
     border: 1px solid var(--bs-border-color);
     border-radius: 5px;
 }
+
+.show-hide{
+    width: 2rem;
+}

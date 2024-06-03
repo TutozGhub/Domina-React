@@ -18,6 +18,8 @@ import ListaUsuarios from './assets/components/ListaUsuarios/ListaUsuarios.jsx';
 import LeerMas from './assets/components/LeerMas/LeerMas.jsx';
 import ContadorPalabras from './assets/components/ContadorPalabras/ContadorPalabras.jsx';
 import InputsBasicos from './assets/components/InputsBasicos/InputsBasicos.jsx';
+import MostrarPass from './assets/components/MostrarPass/MostrarPass.jsx';
+import Validacion from './assets/components/Validacion/Validacion.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -39,6 +41,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="LeerMas" element={<LeerMas />} />
         <Route path="ContadorPalabras" element={<ContadorPalabras />} />
         <Route path="InputsBasicos" element={<InputsBasicos />} />
+        <Route path="MostrarPass" element={<MostrarPass />} />
+        <Route path="Validacion" element={<Validacion />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
