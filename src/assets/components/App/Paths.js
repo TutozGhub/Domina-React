@@ -51,5 +51,9 @@ export const PATHS = [
     {
     "name": "Contador de palabras",
     "path": "/ContadorPalabras"
+    },
+    {
+    "name": "Inputs Basicos",
+    "path": "/InputsBasicos"
     }
 ]
