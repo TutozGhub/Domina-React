@@ -21,6 +21,7 @@ import InputsBasicos from './assets/components/InputsBasicos/InputsBasicos.jsx';
 import MostrarPass from './assets/components/MostrarPass/MostrarPass.jsx';
 import Validacion from './assets/components/Validacion/Validacion.jsx';
 import ValidacionAvanzada from './assets/components/ValidacionAvanzada/ValidacionAvanzada.jsx';
+import ActivacionCondicional from './assets/components/ActivacionCondicional/ActivacionCondicional.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -45,6 +46,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="MostrarPass" element={<MostrarPass />} />
         <Route path="Validacion" element={<Validacion />} />
         <Route path="ValidacionAvanzada" element={<ValidacionAvanzada />} />
+        <Route path="ActivacionCondicional" element={<ActivacionCondicional />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

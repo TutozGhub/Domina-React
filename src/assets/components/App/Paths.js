@@ -67,5 +67,9 @@ export const PATHS = [
     {
     "name": 'Validacion "avanzada" de datos',
     "path": "/ValidacionAvanzada"
+    },
+    {
+    "name": 'Activacion Condicional',
+    "path": "/ActivacionCondicional"
     }
 ]
