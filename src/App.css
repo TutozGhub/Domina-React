@@ -1,11 +1,17 @@
-.max-width{
-    max-width: 800px;
-}
 .max-width-100{
-    max-width: 100px;
+    max-width: 100px !important;
 }
 .max-width-200{
-    max-width: 200px;
+    max-width: 200px !important;
+}
+.max-width-300{
+    max-width: 300px !important;
+}
+.max-width{
+    max-width: 800px !important;
+}
+.max-width-1200{
+    max-width: 1200px !important;
 }
 
 .border-form{
@@ -15,4 +21,8 @@
 
 .show-hide{
     width: 2rem;
+}
+.btn-top{
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
 }

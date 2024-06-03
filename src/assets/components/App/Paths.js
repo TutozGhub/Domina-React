@@ -71,5 +71,17 @@ export const PATHS = [
     {
     "name": 'Activacion Condicional',
     "path": "/ActivacionCondicional"
+    },
+    {
+    "name": 'Carrito de compras',
+    "path": "/Carrito"
+    },
+    {
+    "name": 'Calculadora de propinas',
+    "path": "/CalculadoraPropinas"
+    },
+    {
+    "name": 'Piedra papel o tijera',
+    "path": "/PiedraPapelTijera"
     }
 ]
