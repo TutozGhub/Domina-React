@@ -61,7 +61,11 @@ export const PATHS = [
     "path": "/MostrarPass"
     },
     {
-    "name": "Validacion de datos",
+    "name": 'Validacion "basica" de datos',
     "path": "/Validacion"
+    },
+    {
+    "name": 'Validacion "avanzada" de datos',
+    "path": "/ValidacionAvanzada"
     }
 ]

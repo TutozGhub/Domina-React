@@ -20,6 +20,7 @@ import ContadorPalabras from './assets/components/ContadorPalabras/ContadorPalab
 import InputsBasicos from './assets/components/InputsBasicos/InputsBasicos.jsx';
 import MostrarPass from './assets/components/MostrarPass/MostrarPass.jsx';
 import Validacion from './assets/components/Validacion/Validacion.jsx';
+import ValidacionAvanzada from './assets/components/ValidacionAvanzada/ValidacionAvanzada.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -43,6 +44,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="InputsBasicos" element={<InputsBasicos />} />
         <Route path="MostrarPass" element={<MostrarPass />} />
         <Route path="Validacion" element={<Validacion />} />
+        <Route path="ValidacionAvanzada" element={<ValidacionAvanzada />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
