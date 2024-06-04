@@ -32,10 +32,6 @@ export default function LeerMas() {
 
     const paisesFiltrados = showAll ? countries : countries.slice(0, 3);
 
-  //   const ordenRanking = (orderBy) => {
-  //     setOrder(orderBy);
-  //   };
-
   const clickBtnHandler = ()=>{
     setShowAll(!showAll);
   }

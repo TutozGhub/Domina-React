@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function PiedraPapelTijera() {
   const [player, setPlayer] = useState({ selection: "", score: 0 });
