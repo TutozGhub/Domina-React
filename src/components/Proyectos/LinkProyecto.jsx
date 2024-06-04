@@ -1,13 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function LinkProyecto({path, name}) {
   return (
     <li className="list-group-item">
-        <a
-        href={path}
+        <Link
+        to={'.'+path}
         >
             {name}
-        </a>
+        </Link>
     </li>
   )
 }

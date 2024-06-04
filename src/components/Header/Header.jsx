@@ -6,7 +6,7 @@ export default function Header() {
       <div className="container">
         <div className="collapse navbar-collapse">
           <div className="navbar-nav">
-            <a className="nav-link" href="/">
+            <a className="nav-link" href="./">
                 <i className="fa-solid fa-house me-2"></i>
                 Inicio
             </a>
