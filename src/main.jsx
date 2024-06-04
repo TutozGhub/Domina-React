@@ -24,6 +24,7 @@ import ValidacionAvanzada from './assets/components/ValidacionAvanzada/Validacio
 import ActivacionCondicional from './assets/components/ActivacionCondicional/ActivacionCondicional.jsx';
 import Carrito from './assets/components/Carrito/Carrito.jsx';
 import CalculadoraPropinas from './assets/components/CalculadoraPropinas/CalculadoraPropinas.jsx';
+import PiedraPapelTijera from './assets/components/PiedraPapelTijera/PiedraPapelTijera.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -51,6 +52,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="ActivacionCondicional" element={<ActivacionCondicional />} />
         <Route path="Carrito" element={<Carrito />} />
         <Route path="CalculadoraPropinas" element={<CalculadoraPropinas />} />
+        <Route path="PiedraPapelTijera" element={<PiedraPapelTijera />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
