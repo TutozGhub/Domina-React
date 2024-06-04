@@ -28,10 +28,10 @@ import PiedraPapelTijera from './components/PiedraPapelTijera/PiedraPapelTijera.
 function App() {
   return (
     <>
-
     <BrowserRouter>
       <Routes>
         <Route path='/Domina-React/' element={<Proyectos />} />
+        
         <Route path='/Domina-React/ConteoFinal' element={<ConteoFinal />} />
         <Route path='/Domina-React/JuegoTrivia' element={<JuegoTrivia />} />
         <Route path='/Domina-React/CambioColores' element={<CambioColores />} />
