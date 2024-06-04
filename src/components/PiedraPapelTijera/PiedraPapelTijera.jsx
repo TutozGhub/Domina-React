@@ -44,26 +44,28 @@ export default function PiedraPapelTijera() {
   };
   return (
     <>
-      <div className="d-flex-column w-100 vh-100">
-        <div className="mx-auto max-width-300">
+      <div className="d-flex gap-4 p-4 justify-content-start">
+        <div className="max-width-300 w-100">
           <h1>Piedra, papel o tijera</h1>
           <h4>Puntaje: </h4>
           <p>CPU: {cpu?.score}</p>
           <p>Tú: {player?.score}</p>
           <div className="my-4">
-            <button className="btn me-2 btn-dark" onClick={eleccionUsuario} value='piedra'>
+            <button className="btn btn-dark mt-2 me-2" onClick={eleccionUsuario} value='piedra'>
               Piedra
             </button>
-            <button className="btn btn-dark me-2" onClick={eleccionUsuario} value='papel'>
+            <button className="btn btn-dark mt-2 me-2" onClick={eleccionUsuario} value='papel'>
               Papel
             </button>
-            <button className="btn btn-dark me-2" onClick={eleccionUsuario} value='tijera'>
+            <button className="btn btn-dark mt-2 me-2" onClick={eleccionUsuario} value='tijera'>
               Tijera
             </button>
           </div>
           <button className="btn btn-success" onClick={jugar}>Jugar</button>
+        </div>
+        <div className="w-100">
           { (result.show && player.selection) &&
-            <div className="card mt-4 p-3">
+            <div className="card p-3 max-width-300 w-100">
               <p>Elegiste: {player?.selection}</p>
               <p>La CPU eligio: {cpu?.selection}</p>
               <p

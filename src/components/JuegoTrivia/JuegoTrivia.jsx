@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import {PREGUNTAS} from './Preguntas'
+import { useEffect, useState } from 'react'
 
 export default function JuegoTrivia() {
 
@@ -12,8 +11,12 @@ export default function JuegoTrivia() {
     const [questionIndex, setQuestionIndex] = useState(0)
 
     useEffect(()=>{
-        setQuestions(PREGUNTAS);
-        setQuestionLen(PREGUNTAS.length);
+        fetch('JSON/preguntas.json')
+        .then(res=> res.json())
+        .then(data=>{
+            setQuestions(data);
+            setQuestionLen(data.length);
+        })
     }, [])
     
     useEffect(()=>{
@@ -45,7 +48,7 @@ export default function JuegoTrivia() {
 
   return (
     <div
-    className='d-flex-column align-content-center mx-auto min-vh-100 w-75 max-width'
+    className='d-flex-column align-content-center mx-auto w-75 max-width mt-5'
     >
         <h1>
             Trivia

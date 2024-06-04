@@ -9,7 +9,7 @@ export default function CambioColores() {
 
   return (
     <div
-    className='d-flex-column align-content-center mx-auto min-vh-100 w-75 max-width'
+    className='d-flex-column align-content-center mx-auto w-75 max-width mt-5'
     >
         <h1>
             Cambio de colores

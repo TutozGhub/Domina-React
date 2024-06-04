@@ -1,4 +1,4 @@
-export const PREGUNTAS = [
+[
     {
         "pregunta": "¿Cuál de los siguientes animales no tiene cola?",
         "opciones": [

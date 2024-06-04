@@ -48,7 +48,7 @@ export default function ConteoFinal() {
     
   return (
     <div
-    className='d-flex-column align-content-center mx-auto min-vh-100 w-75 max-width'
+    className='d-flex-column align-content-center mx-auto w-75 max-width m-5'
     >
         <h1>
             Cuenta regresiva
@@ -69,6 +69,7 @@ export default function ConteoFinal() {
                 <button
                     className='btn btn-primary'
                     onClick={resetCounter}
+                    disabled={isActive ? true : false}
                     >
                     Reiniciar
                 </button>

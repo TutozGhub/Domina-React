@@ -23,7 +23,7 @@ export default function Reloj() {
     };
 
   return (
-    <div className='d-flex justify-content-center align-items-center w-100 vh-100 text-center'>
+    <div className='d-flex justify-content-center align-items-center w-100 mt-5 text-center'>
         <div>
             <h1>Reloj analógico</h1>
             <div className='reloj'>

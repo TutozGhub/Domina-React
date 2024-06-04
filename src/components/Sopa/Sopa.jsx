@@ -14,7 +14,7 @@ export default function Sopa() {
     }
 
   return (
-    <div className='d-flex justify-content-center align-items-center w-100 vh-100'>
+    <div className='d-flex justify-content-center align-items-center w-100 mt-5'>
         <div>
             <h1>Hay una mosca en mi sopa</h1>
             <p
@@ -30,19 +30,19 @@ export default function Sopa() {
                 >
                 <div
                 className='item mt-200 ms-300'
-                data-name='Guisante'
+                data-name='Guisante 1'
                 onClick={(e)=>onClickItemHandler(e)}
                 ></div>
 
                 <div
                 className='item mt-100 ms-100'
-                data-name='Guisante'
+                data-name='Guisante 2'
                 onClick={(e)=>onClickItemHandler(e)}
                 ></div>
 
                 <div
                 className='item mt-300 ms-200'
-                data-name='Guisante'
+                data-name='Guisante 3'
                 onClick={(e)=>onClickItemHandler(e)}
                 ></div>
 

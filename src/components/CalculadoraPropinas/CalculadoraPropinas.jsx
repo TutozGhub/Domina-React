@@ -13,7 +13,7 @@ export default function CalculadoraPropinas() {
   };
 
   return (
-    <div className="d-flex-column align-content-center w-100 vh-100">
+    <div className="d-flex-column align-content-center w-100 mt-5">
       <div className="card mx-auto max-width-300">
         <div className="card-header">
           <h4>Calculadora de propinas</h4>

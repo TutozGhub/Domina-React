@@ -10,7 +10,7 @@ export default function Dado() {
     }
 
   return (
-    <div className='d-flex justify-content-center align-items-center w-100 vh-100'>
+    <div className='d-flex justify-content-center align-items-center w-100 mt-5'>
         <div className='text-center'>
             <h1 className='display-1'><strong>{dice}</strong></h1>
 

@@ -38,7 +38,7 @@ export default function Flecha() {
     }, [])
 
   return (
-    <div className='w-100 vh-100'>
+    <div className='w-100 p-5'>
     <h1>Apunta la flecha</h1>
         <h5>Usa W A S D para moverte</h5>
         <div
