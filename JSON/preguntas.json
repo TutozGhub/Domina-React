@@ -1,0 +1,56 @@
+[
+    {
+        "pregunta": "¿Cuál de los siguientes animales no tiene cola?",
+        "opciones": [
+            {
+                "texto": "Perro"
+            },
+            {
+                "texto": "Gato"
+            },
+            {
+                "texto": "Conejo"
+            },
+            {
+                "texto": "Carpincho",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Cuál es el mamifero mas grande del mundo?",
+        "opciones": [
+            {
+                "texto": "Humano"
+            },
+            {
+                "texto": "Orca"
+            },
+            {
+                "texto": "Ballena",
+                "correcta": true
+            },
+            {
+                "texto": "Oso"
+            }
+        ]
+    },
+    {
+        "pregunta": "¿Cuál de las siguientes no es una provincia de Argentina?",
+        "opciones": [
+            {
+                "texto": "Uruguay",
+                "correcta": true
+            },
+            {
+                "texto": "Chaco"
+            },
+            {
+                "texto": "Santa Fe"
+            },
+            {
+                "texto": "Buenos Aires"
+            }
+        ]
+    }
+]

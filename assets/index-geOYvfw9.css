@@ -1,4 +1,4 @@
-@charset "UTF-8";.max-width{max-width:800px}/*!
+@charset "UTF-8";.max-width-100{max-width:100px!important}.max-width-200{max-width:200px!important}.max-width-300{max-width:300px!important}.max-width{max-width:800px!important}.max-width-1200{max-width:1200px!important}.border-form{border:1px solid var(--bs-border-color);border-radius:5px}.show-hide{width:2rem}.btn-top{border-top-left-radius:0!important;border-top-right-radius:0!important}/*!
 * Bootstrap  v5.3.3 (https://getbootstrap.com/)
 * Copyright 2011-2024 The Bootstrap Authors
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)

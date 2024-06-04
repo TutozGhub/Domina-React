@@ -1,0 +1,74 @@
+[
+    {
+        "nombre": "Argentina",
+        "atracciones": ["Obelisco", "9 de Julio", "Las cataratas", "Budge"],
+        "idiomas": ["Argentino"],
+        "comidas": ["Asado", "Locro", "Polenta"],
+        "ranking_comida": "1",
+        "ranking_hoteles": "4",
+        "ranking_precios": "5"
+    },
+    {
+        "nombre": "Francia",
+        "atracciones": ["Torre Eiffel", "Museo del Louvre", "Catedral de Notre-Dame"],
+        "idiomas": ["Francés"],
+        "comidas": ["Croissant", "Quiche Lorraine", "Ratatoille"],
+        "ranking_comida": "2",
+        "ranking_hoteles": "2",
+        "ranking_precios": "2"
+    },
+    {
+        "nombre": "Japón",
+        "atracciones": ["Monte Fuji", "Templo Sensoji", "Santuario Fushimi Inari"],
+        "idiomas": ["Japonés"],
+        "comidas": ["Sushi", "Ramen", "Tempura"],
+        "ranking_comida": "3",
+        "ranking_hoteles": "1",
+        "ranking_precios": "7"
+    },
+    {
+        "nombre": "Egipto",
+        "atracciones": ["Pirámides de Giza", "Templo de Karnak", "Valle de los Reyes"],
+        "idiomas": ["Árabe"],
+        "comidas": ["Koshari", "Ful medames", "Molokhia"],
+        "ranking_comida": "4",
+        "ranking_hoteles": "6",
+        "ranking_precios": "1"
+    },
+    {
+        "nombre": "China",
+        "atracciones": ["Gran Muralla China", "Ciudad Prohibida", "Guerreros de Terracota"],
+        "idiomas": ["Chino"],
+        "comidas": ["Pato Pekín", "Dim Sum", "Mapo Tofu"],
+        "ranking_comida": "5",
+        "ranking_hoteles": "7",
+        "ranking_precios": "3"
+    },
+    {
+        "nombre": "Nueva Zelanda",
+        "atracciones": ["Milford Sound", "Hobbiton", "Monte Cook"],
+        "idiomas": ["Inglés", "Maorí"],
+        "comidas": ["Hangi", "Pavlova", "Fish and Chips"],
+        "ranking_comida": "6",
+        "ranking_hoteles": "3",
+        "ranking_precios": "6"
+    },
+    {
+        "nombre": "India",
+        "atracciones": ["Taj Mahal", "Templo Dorado", "Palacio de Mysore"],
+        "idiomas": ["Hindi", "Inglés"],
+        "comidas": ["Biryani", "Masala Dosa", "Butter Chicken"],
+        "ranking_comida": "7",
+        "ranking_hoteles": "5",
+        "ranking_precios": "4"
+    },
+    {
+        "nombre": "Alemania",
+        "atracciones": ["Puerta de Brandeburgo", "Castillo de Neuschwanstein", "Catedral de Colonia"],
+        "idiomas": ["Alemán"],
+        "comidas": ["Bratwurst", "Sauerkraut", "Pretzel"],
+        "ranking_comida": "8",
+        "ranking_hoteles": "8",
+        "ranking_precios": "8"
+    }
+]
